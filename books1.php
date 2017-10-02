@@ -17,7 +17,7 @@ else {
 // function to connect and execute the query
 function filterTable($query)
 {
-   $connect = mysqli_connect("localhost", "root", "123456", "books");
+   $connect = mysqli_connect("localhost", "root", "", "books");
    $filter_Result = mysqli_query($connect, $query);
    return $filter_Result;
 }
