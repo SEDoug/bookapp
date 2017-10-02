@@ -1,2 +1,3 @@
 *.pyc
-books1.php
+/templates/books1.php
+/templates/about.html
