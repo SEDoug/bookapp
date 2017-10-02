@@ -1,4 +1,6 @@
-<nav class="navbar navbar-default">
+v class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<!--<nav class="navbar navbar-default">-->
+
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -14,11 +16,21 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/articles">Articles</a></li>
-<!--        <li><a href="/books">Books</a></li>-->
             <li><a href="http://127.0.0.1/booksapp/books1.php">Books</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/control_flow" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ControlFlow</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">for/while loops</a>
+                <a class="dropdown-item" href="#">if/else Loops</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+              </ul>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
+
             {% if session.logged_in %}
               <li><a href="/dashboard">Dashboard</a></li>
               <li><a href="/logout">Logout</a></li>
@@ -31,3 +43,4 @@
         </div><!--/.nav-collapse -->
       </div>
 </nav>
+

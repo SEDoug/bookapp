@@ -1,15 +1,117 @@
 {% extends 'layout.html' %}
 
+
+
 {% block body %}
-    <div class="jumbotron text-center">
-        <h2>My portfolio showcasing various projects</h2>
-        <p class="lead"><b>goal:</b> to demonstrate my programming skills<p>
-        <b>features:</b> login/register | add/edit articles | importing .csv | view data w/php | version control | unit testing (jenkins or Travis CI) | Django/json/node.js<p>
-        <b>used:</b> linux | python | mysql | pycharm | php | phpmyadmin | git | bootstrap<br>
+
+    <div class="jumbotron">
+
+        <h2>my portfolio of various projects</h2>
+
+<!--        <p class="lead">goal: to demonstrate my programming skills<br>
+
+        features: login/register | add/edit articles | importing .csv | view data w/php | version control | unit testing (jenkins or Travis CI) | Django/json/node.js <p>
+
+        used: linux | python | mysql | pycharm | php | phpmyadmin | git | bootstrap<br>-->
+
         by Doug MacGregor</p>
+
         {% if session.logged_in == NULL %}
+
           <a href="/register" class="btn btn-primary btn-lg">Register</a>
+
           <a href="/login" class="btn btn-success btn-lg">Login</a>
+
+          <hr>
+
         {% endif %}
-    </div>
+
+
+
+
+
+  <div class="row">
+
+  <div class="col-lg-4">
+
+    <h3>features/functions</h3>
+
+    <li><a href="/login">login page</a></li>
+
+    <li><a href="/register">register page</a></li>
+
+    <li><a href="/articles">add/edit articles page - must be logged in</a></li>
+
+    <li><a href="http://127.0.0.1/booksapp/books1.php">importing .csv into mysql; search function</a></li>
+
+    <li>version control - github</li>
+
+    <li>unit testing (jenkins or Travis CI) </li>
+
+    <li>Django/json/node.js</li>
+
+<!--    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>-->
+
+  </div>
+
+  <div class="col-lg-3">
+
+    <h3>Used</h3>
+
+    <li>linux, windows, osx</li>
+
+    <li>python, shell, javascript</li>
+
+    <li>mysql, db2, db3</li>
+
+    <li>pycharm, atom, sublime</li>
+
+    <li>php, phpmyadmin</li>
+
+    <li>phpmyadmin</li>
+
+    <li>bootstrap, git</li>
+
+   <!-- <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>-->
+
+  </div>
+
+ <div class="col-lg-5">
+
+   <h3>simple python</h3>
+
+   <li>#1 write code on paper</li>
+
+   <li>#2 how to use control flow</li>
+
+   <li>#3 know python control flow for/while loops, if/else/elif</li>
+
+   <li>#4 how have I used python (ie. my projects)</li>
+
+   <li>#5 know python data types: strings, lists, tuples, dict, set</li>
+
+   <li>#6 how to use list comprehensions</li>
+
+   <li>#7 how to use generators</li>
+
+   <li>#8 know the basics of oop (object oriented programming)</li>
+
+   <li>#9 have some python related questions</li>
+
+   <li>#10 basics of other technologies: git, linux, sql, html, php, css</li>
+
+<!--    <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+
+  </div>
+
+  </div>
+
+
+
+</div>
+
+
+
 {% endblock %}
+
+

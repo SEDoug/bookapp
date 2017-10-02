@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, flash, redirect, url_for, session, request, logging
 #from data import Articles - this takes it our of the database
 from flask_mysqldb import MySQL
@@ -25,12 +24,10 @@ mysql = MySQL(app)
 def index():
     return render_template('home.html')
 
-
 # About
 @app.route('/about')
 def about():
     return render_template('about.html')
-
 
 # Articles
 @app.route('/articles')
@@ -70,6 +67,10 @@ def article(id):
 def books():
     return render_template('books1.html')
 
+# Control Flow
+@app.route('/control_flow')
+def control_flow():
+    return render_template('control_flow.html')
 
 # Register Form Class
 class RegisterForm(Form):
@@ -288,3 +289,4 @@ def delete_article(id):
 if __name__ == '__main__':
     app.secret_key='secret123'
 app.run(debug=True)
+
