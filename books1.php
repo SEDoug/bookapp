@@ -5,7 +5,7 @@ if(isset($_POST['search']))
    $valueToSearch = $_POST['valueToSearch'];
    // search in all table columns
    // using concat mysql function
-   $query = "SELECT * FROM `users` WHERE CONCAT(`author_details`, `title`, `isbn`, `publisher`) LIKE '%".$valueToSearch."%'";
+   $query = "SELECT * FROM `books` WHERE CONCAT(`author_details`, `title`, `isbn`, `publisher`) LIKE '%".$valueToSearch."%'";
    $search_result = filterTable($query);
 
 }
@@ -37,7 +37,7 @@ function filterTable($query)
    </head>
    <body>
 
-       <form action="php_html_table_data_filter.php" method="post">
+       <form action="books1.php" method="post">
            <input type="text" name="valueToSearch" placeholder="Value To Search"><br><br>
            <input type="submit" name="search" value="Filter"><br><br>
 
