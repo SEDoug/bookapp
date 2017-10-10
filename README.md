@@ -1,6 +1,3 @@
-# bookapp
-Hello, this is a home book inventory application that can be use for any personal book library. 
-
 # Bookapp
 ### Personal book inventory application
 
