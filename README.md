@@ -1,7 +1,7 @@
 # Bookapp
 ### Personal book inventory application
 
-Created by @DougMacGregor || http://doug-macgregor.webflow.io/
+Created by @DougMacGregor || http://doug-macgregor.webflow.io/<br>
 Seeking a broader field and desire to do work in full stack development.
 
 Hello, this is a personal book inventory application that can be use for any personal library. 
