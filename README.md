@@ -1,6 +1,8 @@
-# Bookapp - personal book invnetory application
+# Bookapp
+### Personal book invnetory application
 
 Created by @DougMacGregor || http://doug-macgregor.webflow.io/
+Seeking a broader field and desire to do work in full stack development.
 
 Hello, this is a personal book inventory application that can be use for any personal library. 
 
@@ -17,5 +19,3 @@ This bookapp uses python and the flask microframework for the front end.  I also
 
 ## How to - image place holder
 ![python-code](https://user-images.githubusercontent.com/3903554/31398233-e22cb29a-adad-11e7-8f60-33673702d029.PNG)
-
-
