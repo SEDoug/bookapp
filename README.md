@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # bookapp
 Hello, this is a home book inventory application that can be use for any personal book library. 
-=======
+
 # Bookapp
 ### Personal book inventory application
->>>>>>> 44a0509bcdbefb1a912f81ae8b413b13e45fac35
 
 Created by @DougMacGregor || http://doug-macgregor.webflow.io/<br>
 Seeking a broader field and desire to do work in full stack development.
@@ -16,22 +13,19 @@ I am using two android app's called Book Catalogue and Barcode Scanner to scan a
 
 This bookapp uses python and the flask microframework for the front end.  I also am using phpmyadmin, php and mySQL.
 
-<<<<<<< HEAD
 **more updates to come**
-=======
+
 # portfolioapp
 This is a simple web application written in python with flask-microframework together with bootstrap. I have used code from other programmers to learn how all the pieces work.  I will be tweaking the application to fit my needs and explain what I have learned along the way.
 
 I have also mixed in a personal book inventory application that is also written in python with the help of php and mysql.  More about this project can be found here:  https://github.com/SEDoug/bookapp
->>>>>>> 760e352d29fd08d60a871cb80f27c8c940aa1adb
-=======
+
 <li>Samsung S5 w/ Book Catalogue and Barcode Scanner
 <li>Python 3
 <li>PHP 7
 
 ## Demo - video place holder
 [![Alt text for your video](https://user-images.githubusercontent.com/3903554/31397214-0da2135a-adab-11e7-85f7-8c79900507b3.PNG)](http://www.youtube.com/watch?v=juIJGBxj-4w)
->>>>>>> 44a0509bcdbefb1a912f81ae8b413b13e45fac35
 
 ## How to - image place holder
 ![python-code](https://user-images.githubusercontent.com/3903554/31398233-e22cb29a-adad-11e7-8f60-33673702d029.PNG)
