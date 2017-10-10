@@ -14,3 +14,7 @@ This bookapp uses python and the flask microframework for the front end.  I also
 
 **more updates to come**
 
+# Demo
+
+# How it works
+
