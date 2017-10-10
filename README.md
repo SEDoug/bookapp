@@ -5,5 +5,5 @@ I am using an android app called Book Catalogue and Barcode Scanner to scan all 
 
 This bookapp uses flask for the front end.  I also am using phpmyadmin, php and mySQL.
 
-<more updates to come>
+**more updates to come**
 
