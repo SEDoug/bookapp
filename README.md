@@ -1,5 +1,5 @@
 # Bookapp
-### Personal book invnetory application
+### Personal book inventory application
 
 Created by @DougMacGregor || http://doug-macgregor.webflow.io/
 Seeking a broader field and desire to do work in full stack development.
